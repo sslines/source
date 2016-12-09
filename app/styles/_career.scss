@@ -1,0 +1,34 @@
+.career-description {
+	border-bottom: 2px solid $oceanic;
+}
+.application-form {
+	h5 {
+		padding-top: 15px;
+	}
+	.app-submit-btn {
+		background-color: $firework;
+	}
+}
+
+.career-collection {
+	cursor: pointer;
+	a.collection-item {
+		color: $oceanic;
+		&:hover {
+			background-color: $oceanic!important;
+			color: #fff;
+		} 
+	}
+}
+.resume-input {
+	.btn {
+		background-color: $oceanic;
+	}
+}
+.form-resume {
+	border-bottom: 2px solid $oceanic;
+  	padding-bottom: 20px;
+}
+#careerBg:after {
+	@include transparentBg(0.4);
+}

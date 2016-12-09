@@ -1,0 +1,16 @@
+.app-bar {
+    background-color: $oceanic;
+    .brand-logo,
+    .side-menu {
+        color: color('grey', 'lighten-5');
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .app-bar {
+        .brand-logo,
+        .side-menu {
+            font-size: 18px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+#faqBg:after {
+	@include transparentBg(0.4);
+}
+
+.faq-contents-section {
+	.section {
+		.row {
+			margin-top: 15px;
+		}
+	}
+}
+
+.faq-list {
+	.btn {
+		background-color: $taupe;
+		margin-bottom: 15px;
+	}
+}

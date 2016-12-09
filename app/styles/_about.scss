@@ -1,0 +1,26 @@
+.mission-section,
+.history-section,
+.service-section {
+    .section {
+        .row {
+            margin-top: 20px;
+        }
+    }
+}
+
+.about-container.history {
+    background-color: $taupe;
+}
+
+.mission-section, .history {
+    height: 400px;
+}
+
+.service-section, .people-section {
+	border-bottom: 2px solid $taupe;
+	padding-bottom: 20px;
+}
+
+#aboutBg:after {
+	@include transparentBg(0.4);
+}

@@ -1,0 +1,25 @@
+footer.page-footer {
+    margin: 0;
+    background-color: $oceanic;
+    .social-media-icons {
+        .btn-floating {
+            background-color: $firework;
+        }
+    }
+}
+
+.footer-about {
+	.btn {
+		background-color: $firework;
+	}
+
+}
+
+.footer-contact-info {
+	.list {
+		span {
+			color: color("grey", "base");
+			padding-left: 15px;
+		}
+	}
+}

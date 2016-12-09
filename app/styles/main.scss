@@ -1,0 +1,20 @@
+// bower:scss
+@import "materialize/sass/materialize.scss";
+@import "Materialize/sass/materialize.scss";
+// endbower
+
+
+@import "variables";
+@import "mixin";
+
+@import "general";
+@import "appbar";
+@import "sidebar";
+@import "footer";
+
+@import "about";
+@import "contact";
+@import "career";
+@import "dashboard";
+@import "faq";
+@import "schedule";

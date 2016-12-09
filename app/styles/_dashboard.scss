@@ -1,0 +1,134 @@
+.dashboard-side-nav {
+    background-color: $oceanic;
+    a {
+        color: color('grey', 'lighten-5')!important;
+    }
+    li {
+        a {
+            align-items: center;
+        }
+        &:hover {
+            background-color: rgba(0, 0, 0, .2);
+        }
+        .material-icons {
+            margin-right: 15px;
+        }
+    }
+    .activeItem {
+        background-color: rgba(0, 0, 0, .2);
+    }
+    li.user {
+        cursor: pointer;
+        text-align: center;
+        margin-top: 32px;
+        margin-bottom: 16px;
+        border-bottom: 1px solid #ddd;
+        &:hover {
+            background-color: transparent!important;
+        }
+    }
+    li.nav-list-item {
+        .material-icons {
+            vertical-align: middle;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    main.dashboard-main {
+        padding-left: 0px!important;
+    }
+    .dashboard-settings, .db-side-menu {
+        i {
+            padding-top: 12px;
+        }
+    }
+}
+
+main.dashboard-main {
+    padding-left: 240px;
+}
+
+.dashboard-nav {
+    background-color: #fff;
+    i.material-icons {
+        color: $onyx;
+    }
+}
+
+.some-cards {
+    .first-card {
+        .card-image {
+            img:after {
+                @include transparentBg(0.4);
+            }
+        }
+    }
+    .second-card {
+        background-color: $oceanic;
+        .card-content {
+            label {
+                color: color('grey', 'lighten-5');
+            }
+        }
+    }
+    .card-action {
+        a {
+            color: $firework;
+        }
+    }
+}
+
+.card-statistics {
+    .card {
+        padding-bottom: 15px;
+    }
+}
+
+.card-main-stat {
+    .card {
+        padding: 15px;
+    }
+}
+
+.dashboard-settings {
+    a {
+        color: $oceanic;
+    }
+}
+
+.dropdown-content.dashboard li > a {
+    color: $oceanic;
+}
+
+.oceanic {
+    background-color: $oceanic;
+}
+
+.schedule-section {
+    .btn {
+        background-color: $oceanic;
+        margin-top: 12px;
+    }
+}
+
+.boat-pic {
+    height: 40px;
+    width: 40px;
+}
+
+.edit-btns {
+    .btn-floating {
+        background-color: $firework;
+    }
+}
+
+.add-route-btn {
+    margin-right: 10px;
+}
+
+.upload-photo {
+    background-color: color('grey', 'base');
+    padding: 50px;
+    margin-bottom: 15px;
+}

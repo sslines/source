@@ -1,0 +1,46 @@
+.boat-name {
+    float: left;
+}
+
+.boat-route {
+    float: right;
+}
+
+.sched-price-section {
+    .collapsible-body {
+        padding-top: 15px;
+        padding-bottom: 30px;
+    }
+}
+
+
+.sched-form-input {
+    padding-top: 15px;
+}
+
+.sched-price-table-section {
+    margin-bottom: 20px;
+}
+
+.input-field.destination {
+    padding-top: 6px;
+    label {
+        left: 0!important;
+    }
+}
+
+#schedBG:after {
+    @include transparentBg(0.4);
+}
+
+@media only screen and (max-width: 768px) {
+    .top-nav {
+        background-color: $firework;
+        height: 100px;
+        box-shadow: none;
+        .page-title {
+            line-height: 100px;
+            font-size: 24px;
+        }
+    }
+}
